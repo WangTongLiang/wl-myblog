@@ -1,0 +1,22 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pretest": "start http://localhost:3000/",
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "blog",
+    "itcast"
+  ],
+  "author": "iceStone <ice@micua.com> (http://blog.wedn.net)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "hbs": "^4.0.0"
+  }
+}
